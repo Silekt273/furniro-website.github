@@ -1,0 +1,130 @@
+.block4 {
+    width: 120rem;
+    height: 42rem;
+    background-color: var(--light_yellow);
+    display: flex;
+    margin-top: 5rem
+}
+.block4_title{
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.block4_1 {
+    margin-left: 15rem;
+    margin-top: 12rem;
+    width: 26.3rem;
+    
+}
+
+.block4_text {
+    color: var(--dark_grey);
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.butt3 {
+    background-color: var(--orange);
+    height: 3rem;
+    width: 11rem;
+    border-style: none;
+    margin-top: 1rem;
+    color: var(--light_grey);
+}
+
+.block4_2 {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    width: 25.2rem;
+    height: 36.3rem;
+    background-image: url(/assets/images/bl4_1.webp);
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.block4_2_1 {
+    width: 13.5rem;
+    height: 8.1rem;
+    background-color: var(--white);
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-top: 27rem;
+    color: var(--dark_grey);
+}
+
+.block4_text_2_1 {
+    margin-left: 2rem
+}
+
+.block4_txt2_2_1 {
+    font-size: 29px;
+    color: var(--black);
+}
+
+.strelka {
+    margin-left: 15rem;
+    margin-top: -3rem;
+    cursor: pointer;
+}
+
+.block4_pic3 {
+    margin-left: 1.2rem;
+}
+
+.block4_3 {
+    margin-top: 2.5rem;
+    margin-left: 1.5rem
+}
+
+.krug {
+    position: relative;
+    margin-left: 21rem;
+    margin-top: -14rem;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.block4_3_2 {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+
+}
+
+.bepis {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem
+}
+
+.orbor {
+    margin-top: -0.5rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 0.12rem solid var(--orange);
+    background-color: transparent;
+    position: relative;
+    border-radius: 50%;
+}
+
+.okrug {
+    width: 0.7rem;
+    height: 0.7rem;
+    position: relative;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: var(--orange)
+}
+
+.krugi {
+    width: 0.7rem;
+    height: 0.7rem;
+    position: relative;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: var(--grey)
+}

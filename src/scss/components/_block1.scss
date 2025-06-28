@@ -1,0 +1,65 @@
+.block1 {
+    background-image: url(/assets/images/fon.webp);
+    padding-top: 13rem;
+    padding-left: 68rem;
+    height: 63rem;
+    background-repeat: no-repeat;
+    background-size: 120rem;
+
+    .block1_block {
+
+        background-color: var(--yellow);
+        width: 45rem;
+        height: 30rem;
+
+
+        .block1_txt {
+            margin-left: 5rem;
+            padding-top: 5.5rem;
+
+            .block1_mini_zag {
+                font-size: 19px;
+                font-weight: bold;
+                color: var(--black);
+                letter-spacing: 0.2rem;
+                margin-bottom: 1rem;
+            }
+
+            .title {
+                font-size: 4rem;
+                line-height: 4rem;
+                color: var(--orange);
+                font-weight: bold;
+                width: 80%;
+            }
+        }
+
+        .block1_block_osnova {
+            font-size: 19px;
+            line-height: 1.5rem;
+            width: 34rem;
+            margin-top: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.02rem;
+        }
+
+        .block1_butt {
+            font-weight: bold;
+            width: 14rem;
+            height: 4.6rem;
+            background-color: var(--orange);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-style: none;
+            margin-top: 3rem;
+            color: var(--light_grey);
+
+
+        }
+    }
+
+    .block1_butt:hover {
+        background-color: var(--dark_grey);
+    }
+}

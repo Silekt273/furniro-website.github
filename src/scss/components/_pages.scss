@@ -1,0 +1,44 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2.5rem;
+
+    .pages_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3.75rem;
+        height: 3.75rem;
+        color: var(--white);
+        background-color: var(--orange);
+        border-radius: 0.6rem;
+        cursor: pointer;
+    }
+
+    .pages_other {
+        display: flex;
+        width: 3.75rem;
+        height: 3.75rem;
+        background-color: var(--yellow);
+        border-radius: 0.6rem;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .pages_number {
+        font-size: 1.4rem;
+    }
+
+    .pages_next {
+        display: flex;
+        width: 7rem;
+        height: 3.75rem;
+        background-color: var(--yellow);
+        border-radius: 0.6rem;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}

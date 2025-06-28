@@ -1,0 +1,12 @@
+# Зависимости
+node_modules/
+package-lock.json
+
+# Сборка (если не хотите коммитить)
+dist/
+
+# Системные файлы
+.DS_Store
+*.log
+.sass-cache/
+Thumbs.db

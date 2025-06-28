@@ -1,0 +1,96 @@
+footer {
+  width: 120rem;
+  border: solid 2px #d9d9d99f;
+}
+
+.footer_name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer_txt {
+  color: var(--dark_grey);
+}
+
+.footer_title {
+  color: var(--dark_grey);
+  font-weight: 400;
+}
+
+.footer_txt1 {
+  font-weight: 500;
+}
+
+.footer_verh {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.875rem;
+  gap: 14rem;
+}
+
+.footer_line_down {
+  border: none;
+  height: 2px;
+  background: #d9d9d99f;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.st {
+  line-height: 4rem;
+  color: var(--black);
+}
+
+.footer_left_desc {
+  margin-top: 3rem
+}
+
+.finf {
+  width: 17.8rem;
+  margin-right: 8rem;
+}
+
+.footer_left {
+  display: flex;
+  gap: 9.375rem;
+  margin-left: -4rem;
+}
+
+.footer_right {
+  display: flex;
+  gap: 10rem
+}
+
+#mail1 {
+  width: 12.5rem;
+  height: 1.3rem;
+  border-style: none;
+  border-bottom: 0.125rem solid black;
+  background-color: transparent;
+
+}
+
+.footer_mail {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.footer_butt {
+  font-size: 1rem;
+  display: flex;
+  width: 5.6rem;
+  height: 1.3rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.13rem solid black;
+  font-weight: 600;
+  margin-left: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+}
+
+.footer_niz {
+  margin-left: 12rem;
+  line-height: 4rem;
+}

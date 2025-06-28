@@ -1,0 +1,61 @@
+.block5{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    .block5_text{
+        text-align: center;
+    }
+    .block5_title{
+        color: var(--dark_grey);
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .block5_txt{
+        font-weight: bold;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .block5_pic{
+        display: flex;
+        gap: 2rem;
+        margin-left: 0.3rem;
+        .block5_left{
+            .block5_pictures1{
+               
+                .bl5_2{
+                    margin-left: 2rem;
+                    margin-top: 4.2rem;
+                }
+            }
+            .block5_ldown{
+                display: flex;
+                margin-top: 2rem;
+                
+                .bl5_4{
+                    margin-left: 1.7rem;
+                }
+            }
+        }
+        .block5_center{
+            margin-top: 10rem;
+            padding: 0.5rem;
+        }
+        .block5_right{
+            .block5_rup{
+                .bl5_6{
+                    margin-top: 6rem;
+                }
+                .bl5_7{
+                    margin-left: 2rem;
+                }
+            }
+            .block5_rdown{
+                display: flex;
+                margin-top: 2rem;
+                .bl5_9{
+                    margin-left: 2rem;
+                    width: 260px;
+                }
+            }
+        }
+    }
+}

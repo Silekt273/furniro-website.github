@@ -1,0 +1,75 @@
+.filters {
+  height: 6.25rem;
+  width: 120rem;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45rem;
+  margin-top: -0.3rem;
+}
+
+.filter_l {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.filt {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter_name {
+  font-size: 1.3rem;
+}
+
+.list {
+  margin-top: 0.2rem;
+}
+
+.filter_2 {
+  display: flex;
+  gap: 3rem
+}
+.filter_show {
+  margin-top: 0.3rem;
+}
+.vertical_line {
+  width: 0.125rem;
+  height: 2.3rem;
+  background: var(--grey);
+  margin: 2 auto;
+}
+
+.filter_2_show {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+
+.filter_2_show {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.show {
+  width: 3.4rem;
+  height: 3.4rem;
+  text-align: center;
+  border-style: none;
+  background-color: var(--white);
+  font-size: 1.3rem;
+}
+
+.short {
+  width: 11.75rem;
+  height: 3.4rem;
+  padding: 25px;
+  border-style: none;
+  background-color: var(--white);
+  font-size: 1.3rem;
+}

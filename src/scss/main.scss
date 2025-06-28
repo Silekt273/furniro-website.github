@@ -1,0 +1,51 @@
+// ==== 1. Utils ====
+@use 'utils/variables';
+
+// ==== 2. Base styles ====
+@use 'base/reset';
+@use  'base/typography';
+@use 'base/layout';
+
+// ==== 3. Layout ====
+@use 'layout/container';
+
+// ==== 4. Components ====
+@use  'components/button';
+@use  'components/card';
+@use  'components/header';
+@use  'components/nav-link';
+@use  'components/block1';
+@use 'components/block2';
+@use  'components/block3';
+@use  'components/block4';
+@use  'components/block5';
+@use  'components/footer';
+@use  'components/preview';
+@use  'components/filters';
+@use  'components/block2_shop';
+@use  'components/block3_shop';
+@use 'components/pages';
+@use  'components/product_sofa';
+@use 'components/blbase';
+@use 'components/cont';
+@use 'components/carttotals';
+
+
+
+a {
+  text-decoration: none; // Убирает подчеркивание у всех ссылок
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline; // Добавляет подчеркивание при наведении
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
